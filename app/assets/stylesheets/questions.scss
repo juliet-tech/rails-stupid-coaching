@@ -1,0 +1,66 @@
+
+.container{
+  text-align: center;
+  padding: 50px;
+  background-color: #cb60b3;
+  height: 100vh;
+  color: #00043C;
+}
+
+h1{
+font-family: 'Raleway';
+text-align: center
+}
+
+h2 {
+  font-family: 'Playfair Display';
+  text-align: center
+}
+
+h3 {
+  font-family: 'Raleway';
+  text-align: center
+}
+
+h4 {
+  font-family: 'Raleway';
+  text-align: center
+}
+
+p {
+  font-family: 'Playfair Display';
+  text-align: center
+}
+
+.form_box {
+  border-radius: 7px;
+  text-align: center;
+
+}
+
+.submit_btn {
+  background-color: #F4F4F4;
+  border-radius: 7px;
+  color: #A7095C;
+  &:hover {
+    background-color: #F5E9FF;
+    color: orange;
+  }
+}
+
+.link {
+  background-color: #F4F4F4;
+  border-radius: 7px;
+  color: #A7095C;
+  width: 100px;
+  text-align: center;
+  flex: display;
+  &:hover {
+    background-color: #F5E9FF;
+    color: orange;
+  }
+}
+
+.btn {
+  display: inline-block;
+}
